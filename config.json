@@ -1,0 +1,35 @@
+{
+  "project_name": "MAR-PD v3.0",
+  "version": "3.0",
+  "description": "Multi-Algorithmic Reconnaissance Profile Decoder",
+  
+  "settings": {
+    "max_threads": 10,
+    "timeout": 30,
+    "retry_attempts": 3,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "save_results": true,
+    "output_format": "json"
+  },
+  
+  "methods": {
+    "enabled": true,
+    "auto_discover": true,
+    "run_parallel": true,
+    "stop_on_error": false
+  },
+  
+  "paths": {
+    "results_dir": "./results",
+    "logs_dir": "./logs",
+    "cache_dir": "./cache",
+    "wordlists_dir": "./wordlists"
+  },
+  
+  "ethical_rules": {
+    "must_read_agreement": true,
+    "log_all_activities": true,
+    "respect_privacy": true,
+    "legal_use_only": true
+  }
+}
